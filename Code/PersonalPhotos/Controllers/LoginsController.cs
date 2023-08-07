@@ -28,7 +28,7 @@ public class LoginsController : Controller
     {
         if (!ModelState.IsValid)
         {
-            ModelState.AddModelError("", "Invalid login detils");
+            ModelState.AddModelError("", "Invalid login details");
             return View("Login", model);
         }
 
